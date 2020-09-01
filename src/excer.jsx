@@ -1,13 +1,13 @@
 import React from "react"
 import "./styles.css";
-class Home extends React.Component {
+class EXCER extends React.Component {
    render () {
       return (
         <div className="header-style">
-        <p>Home page</p>
+        <p>{this.props.wname}</p>
         </div>
       );
    }
 
 }
-export default Home;
+export default EXCER;

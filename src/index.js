@@ -6,6 +6,7 @@ import "./styles.css";
 import Logs from "./logs";
 import Workout from "./workout";
 import Home from "./home";
+import EXCER from "./excer"
 
 function App() {
   return (
@@ -26,7 +27,10 @@ function App() {
             <Logs />
           </Route>
           <Route path="/Workout">
-            <Workout />
+            <Workout/>
+          </Route>
+          <Route path="/Workout/triceps">
+            <EXCER name="tricepts"/>
           </Route>
           <Route path="/">
             <Home/>
